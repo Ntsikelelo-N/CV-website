@@ -72,6 +72,30 @@
             display: block;
             margin-bottom: 10px;
         }
+        .linkedin-link {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: #0077b5;
+            font-family: Arial, sans-serif;
+        }
+        .linkedin-link img {
+            width: 24px;
+            height: 24px;
+            margin-right: 8px;
+        }
+        .gmail-link {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: #d14836;
+            font-family: Arial, sans-serif;
+        }
+        .gmail-link img {
+            width: 24px;
+            height: 24px;
+            margin-right: 8px;
+        }
     </style>
 </head>
 <body>
@@ -87,7 +111,14 @@
 
         <div class="contact section">
             <h2>Contact Information</h2>
-            <a href="mailto:ntsikelelonamba@gmail.com" target="_blank"> Email: ntsikelelonamba@gmail.com</a>
+            <a href="mailto:ntsikelelonamba@gmail.com" class="gmail-link">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Gmail Logo">
+                Send me an email
+            </a>
+            <a href="https://www.linkedin.com/in/ntsikelelo-jantjie-4bab25269" class="linkedin-link" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Logo">
+                View my LinkedIn Profile
+            </a>
         </div>
 
         <div class="education section">
